@@ -11,7 +11,7 @@ export default class Search {
             this.result = res.data.recipes;
             // console.log(this.recipes);
         } catch (error) {
-            alert(error);
+            alert("No search results. Please try another food.");
         }
     }
 
